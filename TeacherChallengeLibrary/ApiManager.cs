@@ -8,8 +8,6 @@ namespace TeacherChallengeLibrary
 {
     public class ApiManager
     {
-        private static Random rng = new Random();
-
         /// <summary>
         /// Mock api call, the method itself doesn't really matter, the challenge is how to alert the user something happened from inside this method
         /// Hint - Console.WriteLine() does not belong in here. We want that logic only inside of the Console project. Think of it this way, we have 2 UI projects
