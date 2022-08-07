@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TeacherChallengeLibrary
+namespace TeacherChallengeLibrary;
+
+public enum StatusCode
 {
-    public enum StatusCode
-    {
-        Error,
-        Success,
-        Information,
-        Trace
-    }
+    Error,
+    Success,
+    Information,
+    Trace
 }
